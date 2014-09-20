@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="{% static 'assets/ico/favicon.png' %}">
+
+    <title>5CCard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.css" type="text/css" />
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <link href="bootstrap-responsive.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <link href="bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="js/bootstrap.min.js"></script>
+
+         <script>
+      var jump=function(e)
+{
+       //prevent the "normal" behaviour which would be a "hard" jump
+       e.preventDefault();
+       //Get the target
+       var target = $(this).attr("href");
+       //perform animated scrolling
+       $('html,body').animate(
+       {
+               //get top-position of target-element and set it as scroll target
+               scrollTop: $(target).offset().top
+       //scrolldelay: 2 seconds
+       },2000,function()
+       {
+               //attach the hash (#jumptarget) to the pageurl
+               location.hash = target;
+       });
+
+}
+
+$(document).ready(function()
+{
+       $('a[href*=#]').bind("click", jump);
+       return false;
+});
+
+  </script>
+  </head>
+
+  <body>
+
+    <div class="header">
+      <center><img src="logo2.png"></center>
+      <center><a class="btn btn-default" href="#data">View details &raquo;</a></center>
+    </div>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="logomini.png"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <div class="container marketing" id = "data">
+
+    <hr class="featurette-divider">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <h2>How Much Flex? </h2>
+          <h3> {{ flex }} </h3>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h2>How Much Claremont Cash?</h2>
+          <h3> {{ cash }} </h3>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <h2>How Many Meals Left?</h2>
+          <h3> {{ meals }}</h3>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+      <!-- /END THE FEATURETTES -->
+      <hr class="featurette-divider" id = "about">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">What are we?</h2>
+          <p class="lead"><p> Have you ever walked back to your dorm at 11:50 pm on a Saturday night and then all of a sudden...! You wondered whether or not you flexed out yet?! We all know the CUC website is pretty slow, bad, and ugly. So our web application sidesteps that nasty experience for you! As long as you have a current CUC account, you can log into our app and then you'll see your flex balance, claremont cash balance, and how many meals you have left. This app was made for the 2013 5C Hackathon.</p></p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2013 5C Hackathon. Akhil Bagaria, Melissa Ho, Shannon Lin, and Trang Vy &middot;</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="jquery.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="holder.js"></script>
+  </body>
+</html>

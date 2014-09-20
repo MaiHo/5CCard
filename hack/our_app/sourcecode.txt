@@ -1,0 +1,338 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<html lang='en'>
+<head>
+<link rel='stylesheet' type='text/css'  href='custom/claremont/style.css' >
+<title>CUC's Connection</title>
+<link type='text/css' href='js/jquery.ui/smoothness/jquery-ui-1.7.2.custom.css' rel='stylesheet' />
+<script type='text/javascript' src= 'js/jquery-1.3.2.min.js'></script>
+<script type='text/javascript' src= 'js/jquery-ui-1.7.2.custom.min.js'></script>
+<script language='JavaScript'>
+ function timedout()
+ { 
+window.location.href='timeout.php?cid=35&skey=3d62c42fc832f319642d7fcb97587704';   
+ } 
+
+ function starttimer()
+ { 
+
+window.setTimeout('timedout()',600000);
+ } 
+
+starttimer();
+
+</script>
+</head>
+<body>
+<center>
+<table bgcolor='white' width='800' height='100%' border='0'  summary='(page border)' ><tr><td valign='top' width='600' height='100%'>
+<table border='0' cellpadding='0' cellspacing='0' height='100%' summary='Header'><tr><td  >
+<a href='http://cards.cuc.claremont.edu' border='0'><img src="custom/claremont/subheader.jpg" border='0'></a>
+</td></tr><tr><td height='100%'>
+<table width='600'  height='100%' border='0' cellpadding='0'  cellspacing='0' summary='leftnav' >
+<tr><td width='185' height='100%' align='left'>
+<table height='100%' border='0' cellspacing='0' cellpadding='0' summary='hotbuttons'><tr><td>
+<table border='0' cellpading='0' cellspacing='0'  summary='Hot Buttons' width='100%'>
+<tr><td class='hotbutton'><a href='payment.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&'><image src='custom/stevens/stevensadd.gif' border='0'></a></td></tr>
+</table>
+</td></tr><tr><td height='100%'>
+<table cellpadding='1' cellspacing='0' border='0'   width='183' class='sidebar2' summary='Menu Box' height='100%'>
+<tr><td width='100%' >
+<table width='100%' cellpadding='5' cellspacing='0' border='0' summary='Choices' height='100%'><tr><td class='sidebar2title' >NAVIGATE</td></tr><tr><td class='sidebar2body'  height='100%'  valign='top'>
+<a href='statement.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><img src='images/icons/gray/account.gif' border='0' align='center' alt='Account Activity' /> <img src='images/parrow.gif' border='0' align='center' alt='<' /></a> <img src='images/tinyspace.gif' alt='Spacer' /><a href='statement.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><font class='sidebar2link'>Account Activity</font></a><br />
+<a href='http://cards.cuc.claremont.edu/textpage.php?pageid=167&cid=35&&skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><img src='images/icons/gray/account.gif' border='0' align='center' alt='Close Claremont Cash Acct' /> <img src='images/parrow.gif' border='0' align='center' alt='<' /></a> <img src='images/tinyspace.gif' alt='Spacer' /><a href='http://cards.cuc.claremont.edu/textpage.php?pageid=167&cid=35&&skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><font class='sidebar2link'>Close Claremont Cash Acct</font></a><br />
+<a href='payment.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><img src='images/icons/gray/deposit.gif' border='0' align='center' alt='Make a Deposit' /> <img src='images/parrow.gif' border='0' align='center' alt='<' /></a> <img src='images/tinyspace.gif' alt='Spacer' /><a href='payment.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><font class='sidebar2link'>Make a Deposit</font></a><br />
+<a href='index.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><img src='images/icons/gray/home.gif' border='0' align='center' alt='Manage Account Home' /> <img src='images/parrow.gif' border='0' align='center' alt='<' /></a> <img src='images/tinyspace.gif' alt='Spacer' /><a href='index.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><font class='sidebar2link'>Manage Account Home</font></a><br />
+<a href='http://cards.cuc.claremont.edu/textpage.php?pageid=162&cid=35&&skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><img src='images/icons/gray/faq.gif' border='0' align='center' alt='Off Campus Merchants' /> <img src='images/parrow.gif' border='0' align='center' alt='<' /></a> <img src='images/tinyspace.gif' alt='Spacer' /><a href='http://cards.cuc.claremont.edu/textpage.php?pageid=162&cid=35&&skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><font class='sidebar2link'>Off Campus Merchants</font></a><br />
+<a href='http://cards.cuc.claremont.edu/textpage.php?pageid=159&cid=35&&skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><img src='images/icons/gray/faq.gif' border='0' align='center' alt='On Campus Merchants' /> <img src='images/parrow.gif' border='0' align='center' alt='<' /></a> <img src='images/tinyspace.gif' alt='Spacer' /><a href='http://cards.cuc.claremont.edu/textpage.php?pageid=159&cid=35&&skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><font class='sidebar2link'>On Campus Merchants</font></a><br />
+<a href='recent.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><img src='images/icons/gray/deposit.gif' border='0' align='center' alt='Recent Deposits' /> <img src='images/parrow.gif' border='0' align='center' alt='<' /></a> <img src='images/tinyspace.gif' alt='Spacer' /><a href='recent.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><font class='sidebar2link'>Recent Deposits</font></a><br />
+<a href='http://cards.cuc.claremont.edu/textpage.php?pageid=158&cid=35&&skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><img src='images/icons/gray/faq.gif' border='0' align='center' alt='Terms & Conditions' /> <img src='images/parrow.gif' border='0' align='center' alt='<' /></a> <img src='images/tinyspace.gif' alt='Spacer' /><a href='http://cards.cuc.claremont.edu/textpage.php?pageid=158&cid=35&&skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><font class='sidebar2link'>Terms & Conditions</font></a><br />
+<a href='https://cards.cuc.claremont.edu/textpage.php?pageid=160&cid=35&&skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><img src='images/icons/gray/faq.gif' border='0' align='center' alt='What is Claremont Cash?' /> <img src='images/parrow.gif' border='0' align='center' alt='<' /></a> <img src='images/tinyspace.gif' alt='Spacer' /><a href='https://cards.cuc.claremont.edu/textpage.php?pageid=160&cid=35&&skey=3d62c42fc832f319642d7fcb97587704&cid=35&' ><font class='sidebar2link'>What is Claremont Cash?</font></a><br />
+</td></tr>
+</table>
+</td></tr></table>
+</td></tr></table>
+</td>
+<td valign='top' width='5' >&nbsp;</td>
+<td valign='top' width='405' valign='top' >
+<table border='0' cellspacing='0' cellpadding=5  height='' width='100%' summary='main body'> <tr><td class='mainbody'><br>
+<table class='form' cellpadding='0' cellspacing='0'  width='100%' border='0' summary='Layout Section'><tr><td width='100%'>
+<table class='formbody' cellpadding='5' cellspacing='0'  width='100%' summary='Layout Area For Form' ><tr><td>
+
+<form action='/statement.php' enctype="multipart/form-data"   method='post'><input type='hidden' name='save' value='1' ><input type='hidden' name='skey' value='3d62c42fc832f319642d7fcb97587704' ><input type='hidden' name='cid' value='35' ><font class='formtitle'>Account Activity</font><br>
+<font class='formsubtitle'>View activity on your card accounts</font><br>
+<font class='forminstructions'>Select the month to view your account activity.</font><br>
+<br>
+<table summary='Input Area' cellpadding='2'   cols='2' class='formbody' border='0' >
+<tr><td class='caption' valign='middle' align='right'  width='75' ><label for='acctto'>Plan</label></td>
+<td class='input' >
+<select name='acctto' id='acctto' class='input'   onmousewheel='return false;'>
+<option value='21'  selected >Board Plus</option>
+<option value='B14' >HM:3</option>
+<option value='1' >Claremont Cash</option>
+</select>
+
+<script language='javascript' type='text/javascript'>
+  
+  newWindow = new Object;
+  newWindow.closed = true;
+  
+  function DefWindowBegin(title,width,height)
+  {
+  
+      var width = (width == null) ? 350 : width;
+      var height = (height == null) ? 400 : height;
+
+      if (!newWindow.closed) {
+           newWindow.close();
+      }
+      newWindow = window.open("","","height="+height+",width="+width+",scrollbars,resizable");
+      newWindow.document.write("<html><head><title>"+title+"<"+"/title>");
+         newWindow.document.write("<link rel='stylesheet' type='text/css'");
+       newWindow.document.write(" href='custom/claremont/style.css' ></head>\n");
+       newWindow.document.write("<body class='aboutbox'><center><img src='custom/template/logo.gif' alt='logo' ");
+      newWindow.document.write(" border='0'>\n");
+      newWindow.document.write("<br><br>\n");
+  }
+  
+  function DefPrintWindowBegin(title,width,height)
+  {
+  
+      var width = (width == null) ? 350 : width;
+      var height = (height == null) ? 400 : height;
+
+      if (!newWindow.closed) {
+           newWindow.close();
+      }
+      newWindow = window.open("","","height="+height+",width="+width+",scrollbars,resizable");
+      newWindow.document.write("<html><head><title>"+title+"<"+"/title>");
+         newWindow.document.write("<link rel='stylesheet' type='text/css'");
+       newWindow.document.write(" href='custom/claremont/style.css' >\n");
+      newWindow.document.write("<script language='javascript' type='text/javascript'>\n    function PrintWindow()\n    {\n         document.getElementById('printButton').style.display='none';\n         window.print();\n         document.getElementById('printButton').style.display='block';\n    }\n\n <" + "/script></head>\n");
+       newWindow.document.write("<body class='aboutbox'><center><img src='custom/template/logo.gif' alt='logo' ");
+      newWindow.document.write(" border='0'>\n");
+      newWindow.document.write("<br><br>\n");
+  }
+  
+  function AddDef(word,def)
+  {
+      newWindow.document.write("<b>"+word+"<"+"/b><hr width='80%'>\n");
+      newWindow.document.write(def+"<br><br>\n");
+  }
+
+  function AddHTML(code)
+  {
+      newWindow.document.write(code);
+  }
+  
+  function DefWindowFinish()
+  {
+      newWindow.document.write("<form><input type='image' "+
+           "src='images/close.gif' value='Close' ");
+      newWindow.document.write(" onClick='self.close()'><"+"/form> ");
+      newWindow.document.write("<"+"/center><"+"/body><"+"/html>");
+      newWindow.document.close();
+  }
+
+  function DefWindowFinishNoClose()
+  {
+      newWindow.document.write("<"+"/center><"+"/body><"+"/html>");
+      newWindow.document.close();
+  }
+  
+  
+</script>
+
+  <img class='about' src='images/q.gif' alt='About' 
+		onclick=" DefWindowBegin('CUCs Connection'); 
+  AddDef(' PO:01','');  AddDef('1 PO:8','');  AddDef('53 SC: Fac/Staff 2 Meals Wk','');  AddDef('Board Plus','');  AddDef('Claremont Cash','Claremont Cash is your general purpose debit plan.  You can purchase items all over campus, from food to laundry to books.  This is your main one-card account.');  AddDef('CM: Fac/Staff Board L','');  AddDef('CM: Fac/Staff Board L+D','');  AddDef('CM:08','');  AddDef('CM:12','');  AddDef('CM:14','');  AddDef('CM:16','');  AddDef('HM: 2 Lunch Pass','');  AddDef('HM: Fac/Staff 1 Meal','');  AddDef('HM: Fac/Staff 2 Meal','');  AddDef('HM: Fac/Staff 3 Meal','');  AddDef('HM: Fac/Staff 5 Meal','');  AddDef('HM: Faculty Board L','');  AddDef('HM:1','');  AddDef('HM:2','');  AddDef('HM:3','');  AddDef('PO: 10/Semester','');  AddDef('PO: 15/Semester','');  AddDef('PO: 25/Semester','');  AddDef('PO: 50/Year','');  AddDef('PO: 75/Semester','');  AddDef('PO: Fac/Staff 1 Meal Wk','');  AddDef('PO: Faculty 2 Meals Week','');  AddDef('PO: Non Student Board','');  AddDef('PO:05','');  AddDef('PO:06','');  AddDef('PO:07','');  AddDef('PO:08','');  AddDef('PO:09','');  AddDef('PO:10','');  AddDef('PO:11','');  AddDef('PO:12','');  AddDef('PO:13','');  AddDef('PO:14','');  AddDef('PO:15','');  AddDef('PO:16','');  AddDef('PZ: Faculty Lunch','');  AddDef('PZ: FIR','');  AddDef('PZ: Live In Comp','');  AddDef('PZ: Ofc Stu Affairs B+L+D','');  AddDef('PZ: President\'s Office 19','');  AddDef('PZ:12','');  AddDef('PZ:16','');  AddDef('PZ:5','');  AddDef('SC: Non Student Board','');  AddDef('SC: Support 1/Week','');  AddDef('SC: Support 2/Week','');  AddDef('SC: Support 3/Week','');  AddDef('SC: Support 5/Week','');  AddDef('SC:12','');  AddDef('SC:16','');  AddDef('SC:5','');  AddDef('SC:8',''); DefWindowFinish(); return false;" 
+ 		 onkeypress=" DefWindowBegin('CUCs Connection'); 
+  AddDef(' PO:01','');  AddDef('1 PO:8','');  AddDef('53 SC: Fac/Staff 2 Meals Wk','');  AddDef('Board Plus','');  AddDef('Claremont Cash','Claremont Cash is your general purpose debit plan.  You can purchase items all over campus, from food to laundry to books.  This is your main one-card account.');  AddDef('CM: Fac/Staff Board L','');  AddDef('CM: Fac/Staff Board L+D','');  AddDef('CM:08','');  AddDef('CM:12','');  AddDef('CM:14','');  AddDef('CM:16','');  AddDef('HM: 2 Lunch Pass','');  AddDef('HM: Fac/Staff 1 Meal','');  AddDef('HM: Fac/Staff 2 Meal','');  AddDef('HM: Fac/Staff 3 Meal','');  AddDef('HM: Fac/Staff 5 Meal','');  AddDef('HM: Faculty Board L','');  AddDef('HM:1','');  AddDef('HM:2','');  AddDef('HM:3','');  AddDef('PO: 10/Semester','');  AddDef('PO: 15/Semester','');  AddDef('PO: 25/Semester','');  AddDef('PO: 50/Year','');  AddDef('PO: 75/Semester','');  AddDef('PO: Fac/Staff 1 Meal Wk','');  AddDef('PO: Faculty 2 Meals Week','');  AddDef('PO: Non Student Board','');  AddDef('PO:05','');  AddDef('PO:06','');  AddDef('PO:07','');  AddDef('PO:08','');  AddDef('PO:09','');  AddDef('PO:10','');  AddDef('PO:11','');  AddDef('PO:12','');  AddDef('PO:13','');  AddDef('PO:14','');  AddDef('PO:15','');  AddDef('PO:16','');  AddDef('PZ: Faculty Lunch','');  AddDef('PZ: FIR','');  AddDef('PZ: Live In Comp','');  AddDef('PZ: Ofc Stu Affairs B+L+D','');  AddDef('PZ: President\'s Office 19','');  AddDef('PZ:12','');  AddDef('PZ:16','');  AddDef('PZ:5','');  AddDef('SC: Non Student Board','');  AddDef('SC: Support 1/Week','');  AddDef('SC: Support 2/Week','');  AddDef('SC: Support 3/Week','');  AddDef('SC: Support 5/Week','');  AddDef('SC:12','');  AddDef('SC:16','');  AddDef('SC:5','');  AddDef('SC:8',''); DefWindowFinish(); return false;"   alt='Click for Help'></td></tr>
+<tr><td class='caption' valign='middle' align='right'  width='75' ><label for='month'>Month:</label></td>
+<td class='input' >
+<select name='month' class='input' id='month'>
+<option value='11'  selected >November 2013
+<option value='10'  >October 2013
+<option value='9'  >September 2013
+<option value='8'  >August 2013
+<option value='7'  >July 2013
+<option value='6'  >June 2013
+<option value='13'  >Last Six Months
+</select>
+</td></tr>
+</table>
+<input type='image' src='images/viewactivity.gif' alt='viewactivity button'  >&nbsp;
+</form>
+</td></tr></table>
+</td></tr></table>
+<table class='' cellpadding='0' cellspacing='0'  width='100%' border='0' summary='Layout Section'><tr><td width='100%'>
+<br>
+<font class='formtitle'>Board Plus</font><br>
+<b>Period November 2013</b><br>
+<table cellpadding='3' cellspacing='0' border='0'  width='390' class='boxoutside'>
+<tr>
+<th class='tabletitlebar' ><a href='/statement.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&acctto=21&month=11&ord=1' >Date</a></th>
+<th class='tabletitlebar' ><a href='/statement.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&acctto=21&month=11&ord=2' >Description</a></th>
+<th class='tabletitlebarnum' ><a href='/statement.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&acctto=21&month=11&ord=3' >Amount</a></th>
+<th class='tabletitlebarnum' ><a href='/statement.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&acctto=21&month=11&ord=4' >Balance</a></td>
+</th>
+<tr>
+<td class='tablefirstcol' >11/03 12:00 AM</td>
+<td class='tablecol'>BBTSCUC - Payment</td>
+<td class='tablecolnum'>8.00</td>
+<td class='tablecolnum'>8.00</td>
+</tr>
+<tr>
+<td class='tablefirstcol' >11/04 10:35 AM</td>
+<td class='tablecol'>HMC the Cafe - Charge</td>
+<td class='tablecolnum'>-2.56</td>
+<td class='tablecolnum'>5.44</td>
+</tr>
+<tr>
+<td class='tablefirstcol' >11/04 06:30 PM</td>
+<td class='tablecol'>HMC Hoch Shanahan 1 - Charge</td>
+<td class='tablecolnum'>-0.50</td>
+<td class='tablecolnum'>4.94</td>
+</tr>
+<tr>
+<td class='tablefirstcol' >11/07 04:06 PM</td>
+<td class='tablecol'>HMC the Cafe - Charge</td>
+<td class='tablecolnum'>-3.65</td>
+<td class='tablecolnum'>1.29</td>
+</tr>
+<tr>
+<td class='tablefirstcol' >11/08 11:34 AM</td>
+<td class='tablecol'>HMC Hoch Shanahan 1 - Charge</td>
+<td class='tablecolnum'>-0.50</td>
+<td class='tablecolnum'>0.79</td>
+</tr>
+<tr>
+<td class='tablefirstcol' >11/10 12:00 AM</td>
+<td class='tablecol'>BBTSCUC - Payment</td>
+<td class='tablecolnum'>7.21</td>
+<td class='tablecolnum'>8.00</td>
+</tr>
+<tr>
+<td class='tablefirstcol' >11/11 10:30 AM</td>
+<td class='tablecol'>HMC the Cafe - Charge</td>
+<td class='tablecolnum'>-3.20</td>
+<td class='tablecolnum'>4.80</td>
+</tr>
+<tr>
+<td class='tablefirstcol' >11/12 04:06 PM</td>
+<td class='tablecol'>HMC the Cafe - Charge</td>
+<td class='tablecolnum'>-2.99</td>
+<td class='tablecolnum'>1.81</td>
+</tr>
+<tr>
+<td class='tablefirstcol' >11/12 10:32 PM</td>
+<td class='tablecol'>HMC Jay's Place - Charge</td>
+<td class='tablecolnum'>-1.81</td>
+<td class='tablecolnum'>0.00</td>
+</tr>
+</table><br>
+<img src='images/print.gif' alt='Print' 
+		onclick="DefPrintWindowBegin('November 2013 Statement',500,600); 
+  AddHTML('<font class=\'formtitle\'>Board Plus</font><br><b>Period November 2013</b><br><table cellpadding=\'3\' cellspacing=\'0\' border=\'0\'  width=\'390\' class=\'boxoutside\'><tr><th class=\'tabletitlebar\' ><a href=\'/statement.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&acctto=21&month=11&ord=1\' >Date</a></th><th class=\'tabletitlebar\' ><a href=\'/statement.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&acctto=21&month=11&ord=2\' >Description</a></th><th class=\'tabletitlebarnum\' ><a href=\'/statement.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&acctto=21&month=11&ord=3\' >Amount</a></th><th class=\'tabletitlebarnum\' ><a href=\'/statement.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&acctto=21&month=11&ord=4\' >Balance</a></td></th><tr><td class=\'tablefirstcol\' >11/03 12:00 AM</td><td class=\'tablecol\'>BBTSCUC - Payment</td><td class=\'tablecolnum\'>8.00</td><td class=\'tablecolnum\'>8.00</td></tr><tr><td class=\'tablefirstcol\' >11/04 10:35 AM</td><td class=\'tablecol\'>HMC the Cafe - Charge</td><td class=\'tablecolnum\'>-2.56</td><td class=\'tablecolnum\'>5.44</td></tr><tr><td class=\'tablefirstcol\' >11/04 06:30 PM</td><td class=\'tablecol\'>HMC Hoch Shanahan 1 - Charge</td><td class=\'tablecolnum\'>-0.50</td><td class=\'tablecolnum\'>4.94</td></tr><tr><td class=\'tablefirstcol\' >11/07 04:06 PM</td><td class=\'tablecol\'>HMC the Cafe - Charge</td><td class=\'tablecolnum\'>-3.65</td><td class=\'tablecolnum\'>1.29</td></tr><tr><td class=\'tablefirstcol\' >11/08 11:34 AM</td><td class=\'tablecol\'>HMC Hoch Shanahan 1 - Charge</td><td class=\'tablecolnum\'>-0.50</td><td class=\'tablecolnum\'>0.79</td></tr><tr><td class=\'tablefirstcol\' >11/10 12:00 AM</td><td class=\'tablecol\'>BBTSCUC - Payment</td><td class=\'tablecolnum\'>7.21</td><td class=\'tablecolnum\'>8.00</td></tr><tr><td class=\'tablefirstcol\' >11/11 10:30 AM</td><td class=\'tablecol\'>HMC the Cafe - Charge</td><td class=\'tablecolnum\'>-3.20</td><td class=\'tablecolnum\'>4.80</td></tr><tr><td class=\'tablefirstcol\' >11/12 04:06 PM</td><td class=\'tablecol\'>HMC the Cafe - Charge</td><td class=\'tablecolnum\'>-2.99</td><td class=\'tablecolnum\'>1.81</td></tr><tr><td class=\'tablefirstcol\' >11/12 10:32 PM</td><td class=\'tablecol\'>HMC Jay\'s Place - Charge</td><td class=\'tablecolnum\'>-1.81</td><td class=\'tablecolnum\'>0.00</td></tr></table><br><br/><br/><form><input type=\'button\' id=\'printButton\' value=\'Print\' onClick=\'PrintWindow()\' /></form>');  DefWindowFinishNoClose(); return false;" 
+ 		 onkeypress="DefPrintWindowBegin('November 2013 Statement',500,600); 
+  AddHTML('<font class=\'formtitle\'>Board Plus</font><br><b>Period November 2013</b><br><table cellpadding=\'3\' cellspacing=\'0\' border=\'0\'  width=\'390\' class=\'boxoutside\'><tr><th class=\'tabletitlebar\' ><a href=\'/statement.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&acctto=21&month=11&ord=1\' >Date</a></th><th class=\'tabletitlebar\' ><a href=\'/statement.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&acctto=21&month=11&ord=2\' >Description</a></th><th class=\'tabletitlebarnum\' ><a href=\'/statement.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&acctto=21&month=11&ord=3\' >Amount</a></th><th class=\'tabletitlebarnum\' ><a href=\'/statement.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&acctto=21&month=11&ord=4\' >Balance</a></td></th><tr><td class=\'tablefirstcol\' >11/03 12:00 AM</td><td class=\'tablecol\'>BBTSCUC - Payment</td><td class=\'tablecolnum\'>8.00</td><td class=\'tablecolnum\'>8.00</td></tr><tr><td class=\'tablefirstcol\' >11/04 10:35 AM</td><td class=\'tablecol\'>HMC the Cafe - Charge</td><td class=\'tablecolnum\'>-2.56</td><td class=\'tablecolnum\'>5.44</td></tr><tr><td class=\'tablefirstcol\' >11/04 06:30 PM</td><td class=\'tablecol\'>HMC Hoch Shanahan 1 - Charge</td><td class=\'tablecolnum\'>-0.50</td><td class=\'tablecolnum\'>4.94</td></tr><tr><td class=\'tablefirstcol\' >11/07 04:06 PM</td><td class=\'tablecol\'>HMC the Cafe - Charge</td><td class=\'tablecolnum\'>-3.65</td><td class=\'tablecolnum\'>1.29</td></tr><tr><td class=\'tablefirstcol\' >11/08 11:34 AM</td><td class=\'tablecol\'>HMC Hoch Shanahan 1 - Charge</td><td class=\'tablecolnum\'>-0.50</td><td class=\'tablecolnum\'>0.79</td></tr><tr><td class=\'tablefirstcol\' >11/10 12:00 AM</td><td class=\'tablecol\'>BBTSCUC - Payment</td><td class=\'tablecolnum\'>7.21</td><td class=\'tablecolnum\'>8.00</td></tr><tr><td class=\'tablefirstcol\' >11/11 10:30 AM</td><td class=\'tablecol\'>HMC the Cafe - Charge</td><td class=\'tablecolnum\'>-3.20</td><td class=\'tablecolnum\'>4.80</td></tr><tr><td class=\'tablefirstcol\' >11/12 04:06 PM</td><td class=\'tablecol\'>HMC the Cafe - Charge</td><td class=\'tablecolnum\'>-2.99</td><td class=\'tablecolnum\'>1.81</td></tr><tr><td class=\'tablefirstcol\' >11/12 10:32 PM</td><td class=\'tablecol\'>HMC Jay\'s Place - Charge</td><td class=\'tablecolnum\'>-1.81</td><td class=\'tablecolnum\'>0.00</td></tr></table><br><br/><br/><form><input type=\'button\' id=\'printButton\' value=\'Print\' onClick=\'PrintWindow()\' /></form>');  DefWindowFinishNoClose(); return false;"   alt='Print Statement'> <br /><br>
+<br>
+</td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td></tr><tr><td>
+<table cellpadding='0' summary='footerbar' >
+<tr><td bgcolor='black' height='2'></td></tr>
+<tr><td class='lowerbar' valign='top' width='600'><table border='0' height='30' cellspacing='5' class='lowerbar' summary='lowerbar'> <tr><td valign='top' >
+<a href='http://cards.cuc.claremont.edu' class='lowerbar'>CUC Home</a>
+|
+<a href='index.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&'  class='lowerbar'>Address, Phone, and Hours</a>
+<font class='lowerbar'> | --U.S. Patent No. 6,963,857</font></td></tr></table>
+</td></tr></table>
+</td></tr></table>
+</td><td width='200' valign='top' height='100%'>
+<table border='0' height='100%' cellpadding='0' cellspacing='4' summary='footer'><tr><td>
+<table cellpadding='1' cellspacing='0' border='0'  width='100%' class='sidebar1' summary='Customer Information' >
+<tr><td width='100%' height='100%'>
+<table width='100%' cellpadding='4' height='100%'  cellspacing='0' border='0' summary='Customer Information' >
+<tr><td class='sidebar1title' >
+Customer Information
+</td></tr>
+<tr><td class='sidebar1effect' height='1'></td></tr><tr><td class='sidebar1body' height='100%' valign='top'>
+<tr><td class='sidebar1body'  >
+Name<br>
+<b>Minhtrang Thi Vy</b><br>
+Account<br>
+<b>XXXXXXXXXXXXXXXXXX9731</b><br>
+<a href='logout.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&goto=index.php?cid=35' >Log Out</a>
+</td></tr></table>
+</td></tr></table>
+
+</td></tr><tr><td>
+<table cellpadding='1' cellspacing='0' border='0'  width='100%' class='sidebar2' summary='Personalize' >
+<tr><td width='100%' height='100%'>
+<table width='100%' cellpadding='4' height='100%'  cellspacing='0' border='0' summary='Personalize' >
+<tr><td class='sidebar2title' >
+Personalize
+</td></tr>
+<tr><td class='sidebar2effect' height='1'></td></tr><tr><td class='sidebar2body' height='100%' valign='top'>
+<a href='guestaccess.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&' >Grant additional access</a><br>
+<font class='sidebar2copy'>Give access to up to four people to see your online account.</font><br><a href='request.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&' >Request Money</a><br>
+<font class='sidebar2copy'>Let us send an email to a friend or relative for you!</font><br><a href='lowbalance.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&' >Low Balance Warning</a><br>
+<font class='sidebar2copy'>A low balance warning email can be sent to you and others.</font><br><a href='lost.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&' >Lost/Stolen Card</a><br>
+<font class='sidebar2copy'>Report your card lost or stolen.</font><br><a href='autopayment.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&' >Automatic Deposits</a><br>
+<font class='sidebar2copy'>Setup recurring deposits when your balance gets too low.</font><br><a href='changepass.php?skey=3d62c42fc832f319642d7fcb97587704&cid=35&' >Change your password</a><br>
+<font class='sidebar2copy'>Change your password</font><br></td></tr></table>
+</td></tr></table>
+
+</td></tr><tr><td height='100%'>
+<table cellpadding='1' cellspacing='0' border='0'  width='100%' class='sidebar3' summary='Address, Phone, and Hours' height='100%'>
+<tr><td width='100%' height='100%'>
+<table width='100%' cellpadding='4' height='100%'  cellspacing='0' border='0' summary='Address, Phone, and Hours' >
+<tr><td class='sidebar3title' >
+Address, Phone, and Hours
+</td></tr>
+<tr><td class='sidebar3effect' height='1'></td></tr><tr><td class='sidebar3body' height='100%' valign='top'>
+CUC's Connection<br>
+800 N. Dartmouth Ave.<br>
+Claremont, CA. 91711<br>
+Phone: (909) 607-CARD (2273)<br>
+Fax: (909) 607-7867<br>
+Email: connection@cuc.claremont.edu<br>
+<br>Fall 2013 (9-3 to 12-19)<br>
+Sunday: 1:00pm to 10:00pm<br>
+Mon-Thurs: 8:00am to 10:00pm<br>
+Friday: 8:00am to 7:00pm<br>
+Saturday: 1:00pm to 9:00pm<br>
+<br><img src='images/space.gif' alt='Separator' /><a href='#comments' onclick="window.open('https://cards.cuc.claremont.edu/helpme.php?cid=35&skey=3d62c42fc832f319642d7fcb97587704&page=%2Fstatement.php','helpme','toolbar=no,location=no,status=yes,menubar=no,resizeable=no,scrollbars=no,width=445,height=550'); return false;"   onkeypress="window.open('https://cards.cuc.claremont.edu/helpme.php?cid=35&skey=3d62c42fc832f319642d7fcb97587704&page=%2Fstatement.php','helpme','toolbar=no,location=no,status=yes,menubar=no,resizeable=no,scrollbars=no,width=445,height=550'); return false;"  ><img border='0' src='images/tellben.jpg'  alt='Help Me'></a><br /><img src='images/jsalogo.gif' alt='JSA Technologies, Inc'>
+       <table width="135" border="0" cellpadding="1" cellspacing="1" style="display:inline">
+            <tr><td width="135" align="center">
+                <script src="https://sealserver.trustkeeper.net/compliance/seal_js.php?code=w6olF7Z9ZhnnGnDfEWfZ1ih5X2IC2k&style=normal&size=105x54&language=en"></script>
+                <noscript>
+                    <a href="https://sealserver.trustkeeper.net/compliance/cert.php?code=w6olF7Z9ZhnnGnDfEWfZ1ih5X2IC2k&style=normal&size=105x54&language=en" target="hATW">
+                          <img src="https://sealserver.trustkeeper.net/compliance/seal.php?code=w6olF7Z9ZhnnGnDfEWfZ1ih5X2IC2k&style=normal&size=105x54&language=en" border="0" alt="Trusted Commerce"/></a>
+                </noscript>
+            </td></tr>
+       </table>
+       </td></tr></table>
+</td></tr></table>
+
+</td></tr></table>
+</td></tr></table>
+      
+<!-- Google Analytics -->  
+ 
+<script type="text/javascript">  
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");  
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));  
+</script>  
+<script type="text/javascript">  
+var pageTracker = _gat._getTracker("UA-3640081-1");  
+pageTracker._initData();  
+pageTracker._trackPageview();    
+</script>  
+  <!-- End of google -->     
+           </center>
+      </body>
+</html> 
+

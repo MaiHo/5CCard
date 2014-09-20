@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+.
+.
+<script language="JavaScript" type="text/javascript">
+	/*fh = fopen('sourcecode');
+	if(fh!=-1)
+	{
+		length = flength(fh);
+		str = fread(fh,length);
+		fclose(fh);
+	}*/
+	$(".text").load("sourcecode.txt");
+</script>
+.
+.
+</body>
+</html>
